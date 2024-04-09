@@ -1,0 +1,45 @@
+.video-container{
+ max-width:fit-content;
+ display: flex;
+ background-color: #633bbf;
+}
+.MuiDialog-paper{
+    max-width: 90vw !important;
+    max-height: none !important;
+}
+.user-video-box{
+    height: 300px;
+    width: 600px;
+    background-color: #a38dd6;
+    border-radius: 20px;
+}
+.bottom-actions{
+    width:auto;
+    height: 50px;
+    background-color: #7454bf;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+}
+.MuiSvgIcon-root{
+    cursor: pointer;
+}
+.audio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.audio-container .MuiAvatar-root{
+    width: 100px;
+    height: 100px;
+   
+    
+}
+.call-chaat-box{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #866dbf;
+    width: 500px;
+}

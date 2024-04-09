@@ -1,0 +1,83 @@
+.homepage-content-parent{
+    height: calc(100vh - 64px);
+    display: flex;
+}
+.users{
+    width: fit-content;
+    min-width:fit-content !important;
+    background-color: #4f3285;
+    height: calc(100vh - 64px);
+    padding: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.chat-box{
+    height: calc(100vh - 64px);
+    width: -webkit-fill-available;
+    padding: 10px;
+    background-color: #65508c;
+    position: relative;
+    
+}
+.call-options{
+    height: 40px;
+    width:  -webkit-fill-available ;
+    display: flex;
+    cursor: pointer;
+
+}
+.call-option-1{
+    width: 50%;
+    height: 40px;
+    background-color: #543a85;
+}
+.call-option-2{
+    width: 50%;
+    height: 40px;
+    background-color: #472685;
+}
+.message-field{
+    width: 70%;
+}
+
+.msg-box{
+width:  -webkit-fill-available !important ;
+}
+
+.call-icon{
+    margin-top: 7px;
+}
+.message-text-box{
+    width:  -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msg{
+    max-width: 50vw;
+    width: auto;
+    background-color: #472685 !important;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.sent-message{
+    
+    align-self: end;
+    border-bottom-right-radius: 0px;
+}
+
+.received-msg{
+    border-bottom-left-radius: 0px;
+    align-self: start;
+}
+@media only screen and (max-width: 800px) {
+    .chat-box{
+        display: none;
+    }
+    .users{
+        width: -webkit-fill-available;
+    }
+}

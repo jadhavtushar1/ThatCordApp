@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+    background-color: #60609e;
+    color:#dbccfc;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8870b5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #442978;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #543a85;
 }

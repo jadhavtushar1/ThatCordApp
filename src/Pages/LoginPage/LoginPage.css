@@ -1,0 +1,116 @@
+.login-parent {
+    height: 100vh;
+    background-color: #60609e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box-parent {
+   
+    width: 25rem;
+    margin: 30px;
+    border: 5px solid #2d2d57;
+    border-radius: 3px;
+    background-color: #8484b8;
+  }
+  .text-box{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-text {
+    font-size: 4rem;
+    color: #112545;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    /* animation: typing 7s  forwards,
+    cursor 2s step-end forwards */
+
+    
+  }
+  
+  @keyframes cursor {
+    50%{border-color: transparent;}
+  }
+  
+  @keyframes typing  {
+    /* to{width: 200px;} */
+    from{width: 0px;}
+  }
+
+
+.media-links{
+    gap: 30px;
+
+}
+.media-links img{
+    width: 3rem;
+    cursor: pointer;
+}
+.text-field-css{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    background-color: #112545;
+    border-color: transparent;
+    color: #dae1e8
+}
+.text-field-css:focus{
+    background-color: #112545;
+    border-color: transparent;
+    color: #dae1e8
+}
+.text-field-css::placeholder{
+    color: #dae1e8;
+}
+
+.sign-btn{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    background-color: #235dba;
+}
+.sign-btn:focus{
+    background-color: #235dba;
+}
+.sign-btn:hover{
+    background-color: #0543a6;
+}
+.create-btn{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    background-color: #162133;
+    color: white;
+}
+
+.create-btn:focus{
+    background-color: #162133;
+    color: white;
+}
+.create-btn:hover{
+    background-color: #2a2f38;
+    color: white;
+}
+.help-text{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #112545;
+}
+.dummy-details{
+    font-family: "Bebas Neue", sans-serif;
+    height: 2rem;
+    background-color:#364257;
+    border: 3px solid #080d17;
+    border-radius: 3px;
+    color: white;
+    overflow-x: auto ;
+    overflow-y:hidden ;
+}
+.incorrect-box{
+    background-color:#d12642;
+    border: 3px solid #4d292e;
+}

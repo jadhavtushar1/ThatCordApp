@@ -1,0 +1,46 @@
+.user-details-parent{
+ height: 70px;
+ background-color: #624a8f;
+ border-radius: 20px;
+ margin: 20px;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ cursor: pointer;
+}
+
+.user-data{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-actions{
+    display:flex ;
+    gap: 10px;
+    align-items: center;
+}
+
+.status-box{
+    width: 20px !important;
+    height: 20px  !important;
+    border-radius: 50%;
+    background-color: #04d13e;
+    align-items: center;
+
+
+}
+
+.user-image{
+    margin:10px
+}
+.user-name{
+    margin: auto !important;
+}
+
+.user-icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
